@@ -13,11 +13,9 @@ body {
 html {
   scroll-behavior: smooth;
   }
+
+
 /* menu */
-  
-/* .hamburger-menu{
-    border-bottom: 1px solid #E2E8F0;
-} */
 
 .side-menu::before {
   height: 50px;
@@ -27,9 +25,6 @@ html {
   cursor: pointer;
 }
 
-/* .hamburger{
-  display: none;
-} */
 
 .text-list {
   top: 0;
@@ -58,9 +53,9 @@ html {
 	padding: 0.2em 0;
 	overflow: hidden;
   color: #489889;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  font-family:  Haettenschweiler, sans-serif;
   font-style: normal;
 }
 
