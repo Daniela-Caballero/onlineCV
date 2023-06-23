@@ -1,0 +1,124 @@
+/*skills*/
+
+/*experience */
+
+.experience-section {
+    z-index: 900
+  }
+  
+  .experience-grid {
+    max-width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 2em;
+    color: #222222;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .experience-heading {
+    margin: 0.2em 0 0;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #0a0a0b;
+    font-family: 'Fraunces', serif;
+  }
+  
+  .experience-heading ::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background-color: #111;
+    transform: translateX(-50%);
+    margin-top: 10px;
+  }
+  
+  .experience-grid {
+    display: table;
+  }
+  
+  .experience-grid-column {
+    display: table-cell;
+  }
+  
+  
+  .timeline {
+    position: relative;
+    margin: 0 0 0 0.5em;
+    padding-left: 1.5em;
+    border-left: solid 1px #a1b2b1;
+    font-size: 20px;
+  }
+  
+  .timeline:first-of-type {
+    margin-top: 1em;
+  }
+  
+  
+  .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -0.5em;
+    display: block;
+    width: 1em;
+    height: 1em;
+    border: solid 1px #222222;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  
+  .timeline-heading {
+    margin: 0;
+    padding-bottom: 0.5em;
+    line-height: 1em;
+    font-weight: normal;
+    -webkit-transform: translateY(-0.1em);
+    -ms-transform: translateY(-0.1em);
+    transform: translateY(-0.1em);
+    font-weight: bold;
+  }
+  
+  .timeline-heading {
+    line-height: 1;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  
+  
+  .timeline-heading-duration {
+    display: block;
+    font-size: 20px;
+    background: none;
+    -webkit-text-fill-color: #6f6f6f;
+    background-clip: text;
+  }
+  
+  .timeline-heading-company {
+    background: none;
+    color: #111;
+    font-size: 20px;
+  }
+  
+  .timeline-details {
+    display: block;
+    margin: 0;
+    padding-bottom: 2em;
+    padding: 0 0 1em 1em;
+    list-style-type: disc;
+    font-size: 20px;
+    line-height: 1.5rem;
+    list-style: circle;
+  }
+  
+  .timeline-details,
+  .timeline-item {
+    margin-bottom: 0.3em;
+  }
+  

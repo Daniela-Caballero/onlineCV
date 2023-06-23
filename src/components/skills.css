@@ -1,0 +1,65 @@
+/*skills*/
+.skills-title {
+    text-align: center;
+    margin: 1em 0 0;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #0a0a0b;
+    font-family: 'Fraunces', serif; 
+  }
+  .skills {
+    font-family: "Nanum Pen Script", "cursive";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 20px auto 60px auto;
+    padding: 20px 0;
+  }
+  
+  @media (min-width: 780px) {
+    .skills {
+      width: 90%;
+      margin-bottom: 100px;
+    }
+  }
+  
+  .skills li {
+    list-style: none;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-items: center; 
+    font-size: rem;
+  }
+  
+  @media (min-width: 780px) {
+    .skills li {
+      margin: 0 20px;
+      width: 120px;
+    }
+  }
+  
+  .icon {
+    width: 40px;
+    margin-bottom: 5px;
+    font-size: 3rem;
+  }
+  
+  @media (min-width: 780px) {
+    .icon {
+      width: 50px;
+    }
+  }
+  

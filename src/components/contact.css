@@ -1,0 +1,48 @@
+
+/*contact section*/
+
+footer {
+    padding: 0.5%;
+    background-color: #FFF6BD;
+  
+  }
+  
+  .contact-icons {
+      display: flex;
+      list-style: none;
+      justify-content: space-evenly;
+      padding: 0;
+      height: 80px;
+      font-size: 2rem;
+  }
+  
+  .email {
+    background: rgb(235, 134, 104) ;
+    padding: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .email-icon {
+    color: rgb(255, 255, 255);
+    height: 45px;
+    font-size: 3rem
+  }
+  
+  .linkedin {
+    background: #007BB5;
+    padding:25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .linkedin-icon {
+    color: white;
+  }
+  
+
+  .github-icon {
+    cursor: pointer;
+    color: black;
+    font-size: 2.5em;
+  }
