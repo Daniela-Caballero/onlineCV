@@ -136,6 +136,7 @@ html {
   font-size: 2rem;
   background: none;
   z-index: 1000;
+  display: none;
 }
 .hamburger.active {
   transform: rotate(180deg);

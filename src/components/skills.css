@@ -9,10 +9,10 @@
     font-weight: bold;
     font-size: 50px;
     color: #0a0a0b;
-    font-family: 'Fraunces', serif; 
+    font-family: 'Lato', sans-serif; 
   }
   .skills {
-    font-family: "Nanum Pen Script", "cursive";
+    font-family: 'Lato', sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
