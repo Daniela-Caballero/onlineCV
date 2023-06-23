@@ -9,7 +9,7 @@ To run the onlineCV app locally on your machine, please follow these steps:
 
 1. Clone the repository to your local machine using the following command:
 
-   git clone https://github.com/Daniela-Caballero/portfolio.git
+   git clone https://github.com/Daniela-Caballero/onlineCV.git
 
 2. Navigate to the project directory:
    
